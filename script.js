@@ -154,9 +154,9 @@ function updateCounter() {
     if (daysRemaining === 0) {
         daysLabel.textContent = 'HOJE SÃO AS FÉRIAS!!! 🎉';
     } else if (daysRemaining === 1) {
-        daysLabel.textContent = 'dia para paz e luz!';
+        daysLabel.textContent = 'dia para férias na europa!';
     } else {
-        daysLabel.textContent = 'dias para paz e luz!';
+        daysLabel.textContent = 'dias para férias na europa!';
     }
     
     // Calcular tempo restante (horas totais, minutos, segundos)
@@ -216,3 +216,4 @@ document.addEventListener('DOMContentLoaded', function() {
     // Atualizar a cada 1 segundo para o relógio rodar
     setInterval(updateCounter, 1000);
 });
+
